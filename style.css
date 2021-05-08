@@ -49,21 +49,22 @@ section{
 }
 
 button{
-width: 150px;
-height: 50px;
-background: none;
-border: 1px solid #c3073f;
-color: white;
-font-size: 20px;
-background: #652232;
-border-radius: 50px;
-margin: 10px;
+    width: 150px;
+    height: 50px;
+    background: none;
+    border: 1px solid #c3073f;
+    color: white;
+    font-size: 20px;
+    background: #652232;
+    border-radius: 50px;
+    margin: 10px;
 }
 
 .reset-score{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .hands{
@@ -74,7 +75,7 @@ margin: 10px;
 
 .hands img{
     width: 200px;
-    margin: 50px;
+    margin: 50px 0 50px 0;
 }
 
 
@@ -175,5 +176,58 @@ div.fadeIn{
     100%{
         transform: translateY(0px)
     }
+
+}
+
+@media(max-width: 601px) {
+
+    .match{
+        margin: 50px 0 0 0;
+    }
+
+    .hands img{
+        width: 100px;
+        
+        
+    }
+
+    .options{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .options button{
+       width: 90px;
+       
+    }
+
+
+
+}
+
+@media(max-width: 331px) {
+
+    .match{
+        margin: 50px 0 0 0;
+    }
+
+    .hands img{
+        width: 100px;
+        
+        
+    }
+
+    .options{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .options button{
+       width: 90px;
+       margin: 0px;
+       
+    }
+
+
 
 }
