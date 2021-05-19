@@ -5,7 +5,7 @@ Here we will be looking how you can make a simple game using javascript by imple
 # Demo
 ![demo](./img/rockpaperscissors.gif)
 
-You can play it from [here](rockpaperscissors.netlify.app).
+You can play it from [here](https://rockpaperscissorsanm.netlify.app/).
 
 # Method
 
